@@ -1,0 +1,15 @@
+job can have multiple stages 
+stage is collection of tasks 
+each task require one core
+stage = [t1,t2,t3,t4...] where t respresents tasks
+ [t1,t2,t3] equals one stage 
+ 
+ job -> stage1 -> [t1,t2]
+	 -> stage2 -> [t3]
+	 -> stage3 -> [t4,t5]       
+ http://spark.apache.org/docs/latest/programming-guide.html
+ 
+ SQL programming guide: http://spark.apache.org/docs/latest/sql-programming-guide.html
+ 
+ 
+ Spark Streaming Programming Guide: https://spark.apache.org/docs/latest/streaming-programming-guide.html
